@@ -13,27 +13,17 @@
             <img src="image.png" alt="Health Image">
         </div>
 
-        <!-- Right side with login options -->
+        <!-- Right side with login form -->
         <div class="right-section">
             <h1>Welcome to Health Index</h1>
-            <p>Please login to continue</p>
-            
-            <!-- Username and Password Input Boxes -->
-            <form action="#" method="POST">
-                <div class="input-box">
-                    <label for="username">Username</label>
-                    <input type="text" id="username" name="username" required>
-                </div>
-                <div class="input-box">
-                    <label for="password">Password</label>
-                    <input type="password" id="password" name="password" required>
-                </div>
-                <button type="submit" class="role-btn">Login</button>
+            <form class="login-form">
+                <input type="text" placeholder="Username" class="input-box" required>
+                <input type="password" placeholder="Password" class="input-box" required>
+                <button class="submit-btn" type="submit">Login</button>
             </form>
-
             <div class="new-account">
                 <p>Don't have an account?</p>
-                <a href="#" class="create-account-btn">Create New Account</a>
+                <a href="signup.html" class="create-account-btn">Create New Account</a> <!-- Link to Sign Up -->
             </div>
         </div>
     </div>
